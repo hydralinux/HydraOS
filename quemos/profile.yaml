@@ -7,7 +7,7 @@ publisher: QuemOS <https://quemos.github.io/>
 label: QuemOS
 application_id: QuemOS
 airootfs_directory_pre: airootfs
-linux_args: locales=en_US.UTF-8,en_US.UTF-8 keyboard-layouts=en username=user hostname=QuemOS user-fullname=QuemOS User quiet console=tty31
+linux_args: locales=en_US.UTF-8,en_US.UTF-8 keyboard-layouts=en username=user hostname=QuemOS user-fullname=QuemOS-User noswap quiet console=tty31
 #iso_merge: iso_merge
 grub_cfg: grub.cfg
 packages:
